@@ -1,0 +1,25 @@
+{
+    "name": "silai/composer-demo",
+    "description": "用于演示composer教学",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ljj",
+            "email": "ljjgit@qq.com"
+        }, {
+            "name": "zhangsan",
+            "email": "zs@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ],
+        "psr-4": {
+            "silai\\composer\\demo\\": "src"
+        }
+    }
+}
